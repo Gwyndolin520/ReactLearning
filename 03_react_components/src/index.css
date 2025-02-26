@@ -1,0 +1,166 @@
+/* 全局样式 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e6f7ff, #ffffff); /* 蓝白色渐变背景 */
+  background-attachment: fixed; /* 固定背景 */
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景，避免内容遮挡 */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 输入框样式 */
+.book-input {
+  margin-bottom: 20px;
+}
+
+.book-input input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-input button:hover {
+  background-color: #0056b3;
+}
+
+/* 图书列表样式 */
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 图书项样式 */
+.book-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.book-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.book-item button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-detail-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.view-detail-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* 图书详情卡片样式 */
+.book-detail-card {
+  background-color: #f0f8ff; /* 浅蓝色背景 */
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.book-detail-card h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.book-detail-card p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}

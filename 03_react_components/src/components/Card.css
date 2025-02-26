@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  margin: 16px;
+  background-color: #ffffff; /* 白色背景 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 柔和的阴影 */
+}
+
+.card-header {
+  padding: 16px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #007bff; /* 蓝色背景 */
+  color: #ffffff; /* 白色文字 */
+}
+
+.card-body {
+  padding: 16px;
+  font-size: 1rem;
+  color: #333333; /* 深灰色文字 */
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+.card-footer {
+  padding: 16px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #e6fdff; /* 白色背景 */
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
