@@ -1,0 +1,23 @@
+.discover {
+    padding: 20px;
+
+    &-item {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: #fff;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        &__icon {
+            font-size: 24px;
+            margin-right: 16px;
+        }
+
+        &__title {
+            font-size: 16px;
+            color: #333;
+        }
+    }
+}
