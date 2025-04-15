@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, Input, Button } from "@tarojs/components";
-import Card from "../../components/Card/Card";
+import { Card } from "@nutui/nutui-react-taro";
 import "./index.scss";
 
 const CardGenerator = () => {

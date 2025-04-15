@@ -1,0 +1,23 @@
+.component-demo {
+  padding: 20px;
+
+  .section {
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+
+    &-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .content {
+      > view, > button, > input, > textarea {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

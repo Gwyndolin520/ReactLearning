@@ -1,0 +1,14 @@
+.scan-code {
+  /* 添加基本样式 */
+  padding: 20px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__button {
+    margin-top: 20px;
+  }
+}
